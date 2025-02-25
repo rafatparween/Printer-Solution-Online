@@ -1,7 +1,11 @@
 import React from 'react';
+import Navbar from '../components/Navbar';
+import PrinterFooter from '../components/PrinterFooter';
 
 const PrinterSetupIssue = () => {
   return (
+    <>
+    <Navbar/>
     <main className="bg-gray-100 min-h-screen flex flex-col justify-center items-center py-12 px-4 sm:px-6 lg:px-8">
       <h2 className='text-4xl mb-2 text-blue-800 font-semibold'>Printer Setup Issue</h2>
       <section className="w-full bg-white overflow-hidden shadow-xl rounded-lg">
@@ -41,6 +45,8 @@ const PrinterSetupIssue = () => {
         )}
       </section>
     </main>
+    <PrinterFooter/>
+    </>
   );
 };
 

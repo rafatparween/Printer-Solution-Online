@@ -1,8 +1,12 @@
 
 import React from 'react';
+import Navbar from '../components/Navbar';
+import PrinterFooter from '../components/PrinterFooter';
 
 const ScannerSetup = () => {
   return (
+    <>
+    <Navbar/>
     <main className="container mx-auto p-8">
       <h1 className="text-4xl font-bold mb-8 text-center text-blue-800">
         4 Methods Of Scanning Documents
@@ -22,6 +26,8 @@ const ScannerSetup = () => {
         ))}
       </div>
     </main>
+    <PrinterFooter/>
+    </>
   );
 };
 

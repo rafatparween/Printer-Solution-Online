@@ -1,7 +1,12 @@
 import React from 'react';
+import Navbar from '../components/Navbar';
+import PrinterFooter from '../components/PrinterFooter';
 
 const PrinterSetup = () => {
   return (
+    <>
+    <Navbar/>
+
     <main className="flex justify-center items-center p-5 ">
       <section className="border w-[95%] p-10 bg-gray-100 shadow-xl ]">
         {printerSetupContent.map((item) => (
@@ -21,6 +26,8 @@ const PrinterSetup = () => {
         ))}
       </section>
     </main>
+    <PrinterFooter/>
+    </>
   );
 };
 

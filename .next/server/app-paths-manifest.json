@@ -1,7 +1,8 @@
 {
-  "/page": "app/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/printeroffline/page": "app/printeroffline/page.js",
+  "/printersetupissue/page": "app/printersetupissue/page.js",
   "/privacypolicy/page": "app/privacypolicy/page.js",
   "/customsoftware/page": "app/customsoftware/page.js",
-  "/customsoftware/Pages/page": "app/customsoftware/Pages/page.js",
-  "/customsoftware/Pages/install/page": "app/customsoftware/Pages/install/page.js"
+  "/printerscannersetup/page": "app/printerscannersetup/page.js"
 }

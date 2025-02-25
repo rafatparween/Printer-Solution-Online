@@ -1,4 +1,6 @@
 import React from 'react';
+import Navbar from '../components/Navbar';
+import PrinterFooter from '../components/PrinterFooter';
 
 const privacyPolicy = [
   {
@@ -61,6 +63,8 @@ When you register for an Account, we may ask for your contact information, inclu
 
 const PrivacyPolicy = () => {
   return (
+    <>
+    <Navbar/>
       <div className="py-16  bg-gradient-to-r from-[#1E3A8A] via-[#3B82F6] to-[#60A5FA]">
         <div className="max-w-7xl mx-auto px-6 sm:px-10 lg:px-16 ">
           {/* Container with shadow and rounded corners */}
@@ -87,6 +91,8 @@ const PrivacyPolicy = () => {
           </div>
         </div>
       </div>
+      <PrinterFooter/>
+    </>
   );
 };
 

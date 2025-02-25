@@ -11,17 +11,6 @@
       "static/chunks/main-app.js",
       "static/chunks/app/page.js"
     ],
-    "/customsoftware/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/customsoftware/page.css",
-      "static/chunks/app/customsoftware/page.js"
-    ],
-    "/customsoftware/Pages/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/customsoftware/Pages/page.js"
-    ],
     "/printeroffline/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
@@ -32,20 +21,21 @@
       "static/chunks/main-app.js",
       "static/chunks/app/printersetupissue/page.js"
     ],
-    "/printerscannersetup/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/printerscannersetup/page.js"
-    ],
     "/privacypolicy/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/privacypolicy/page.js"
     ],
-    "/customsoftware/Pages/install/page": [
+    "/customsoftware/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/customsoftware/Pages/install/page.js"
+      "static/css/app/customsoftware/page.css",
+      "static/chunks/app/customsoftware/page.js"
+    ],
+    "/printerscannersetup/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/printerscannersetup/page.js"
     ]
   }
 }
