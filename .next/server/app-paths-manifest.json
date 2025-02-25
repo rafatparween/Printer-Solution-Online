@@ -1,0 +1,7 @@
+{
+  "/page": "app/page.js",
+  "/privacypolicy/page": "app/privacypolicy/page.js",
+  "/customsoftware/page": "app/customsoftware/page.js",
+  "/customsoftware/Pages/page": "app/customsoftware/Pages/page.js",
+  "/customsoftware/Pages/install/page": "app/customsoftware/Pages/install/page.js"
+}
